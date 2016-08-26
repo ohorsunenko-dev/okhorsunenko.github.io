@@ -1,0 +1,308 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    height: 100%;
+}
+
+.container
+{
+    margin: 0 auto;
+    max-width: 940px;
+    padding: 0 10;
+}
+
+/* Header */
+
+.nav 
+{
+  background: #565656;
+  height: 80px;
+  width: 100%;
+}
+
+.nav ul 
+{
+	list-style: none;
+	margin: 0 auto; 
+	padding: 0;
+	text-align: right; 
+    text-transform: uppercase;
+}
+
+.nav ul li 
+{
+  color: #fff;
+  display: inline-block;
+  height: 80px;
+  line-height: 80px;
+  list-style: none;
+  padding: 0 15px;
+}
+
+.nav ul li a
+{
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav ul li:hover 
+{
+	background: #2384fd;
+	cursor: pointer; 
+	transition: background .5s;  
+}
+
+.nav ul li:nth-child(1):hover
+{
+    background: none;
+    cursor: pointer;
+}
+
+#logo
+{
+    font-size: 16pt;
+    float: left;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+/* pct */
+
+.pct
+{
+    background-image: url(img/3.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 585px;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+.pct .container
+{
+    position: relative;
+    top: 210px;
+}
+
+.pct h1
+{
+    color: #000;
+    font-size: 50px;
+    line-height: 30px;
+    margin-top: 0;
+	margin-bottom: 30px;
+}
+
+.pct h3
+{
+    color: #000;
+    font-size: 25px;
+    line-height: 20px;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.btn
+{
+    color: #fff;
+    background: #565656;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover
+{
+    background: #2384fd ;
+    cursor: pointer;
+    transition: background .5s; 
+}
+
+/* Main */
+
+
+
+.main .container
+{
+    margin: 50px auto;
+    height: 200px;
+    
+}
+
+.main_fir img
+{
+      float: left;
+      margin: 0px 80px 50px 0;
+    
+}
+
+.main_sec img
+{
+      float: right;
+      margin: 0px 80px 50px 0;
+}
+.main_sec .picture
+{
+    float: right;
+    margin-right: -5px;
+}
+/*.main_fir ul li
+{
+    display: inline-block;
+    list-style: none;
+}
+*/
+
+.picture
+{
+    border-radius: 5px;
+    width: 350px;
+    height: 175px;
+}
+
+/* Footer */
+
+footer
+{
+    background: #565656;
+    height: 80px;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+
+footer div p
+{
+  color: #fff;
+  height: 80px;
+  line-height: 80px;
+  padding: 0 10px;
+  margin-top: 5px;
+}
+
+
+/* About */
+
+#aoc
+{
+    text-align: center;
+}
+
+/* Contact */
+
+.karta
+{
+    width: 100%;
+}
+
+.contact_1
+{
+    height: 500px;
+    margin: 50px auto;
+}
+.adress
+{
+    float: left;
+}
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.form
+{
+    padding: 20px 30px 30px 30px;
+    font-size: 20px;
+}
+
+form h2
+{
+    text-align: center;
+}
+
+input, textarea
+{
+    border-radius: 5px;
+    background: #fff;
+    border: 1px solid #c6c7cc;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
+    color: #636466;
+    padding: 6px;
+    margin-top: 6px;
+    width: 100%;
+}
+
+.btn-c
+{
+    text-align: center;
+    width: 20%;
+    color: #fff;
+    background: #565656;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn-c:hover
+{
+    background: #2384fd ;
+    cursor: pointer;
+    transition: background .5s; 
+}
+
+/* Our team */
+
+.person
+{
+    padding-top: 40px;
+    padding-bottom: 100px;
+    height: 500px;
+}
+
+.person .col
+{
+  float: left;
+  width: 30%;
+  font-family: 'Raleway', sans-serif;
+  text-align: left;
+  margin: 20px 10px;
+  
+}
+
+.col
+{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.person img 
+{
+    float: left;
+    height: 150px;
+    width: 130px;
+    padding: 10px;
+}
+
+.o_t
+{
+    margin-top: 40px;
+}
+
+/* projects */
+
+.projects
+{
+    height: 500px;
+    text-align: center;
+}
